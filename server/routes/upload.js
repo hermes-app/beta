@@ -1,7 +1,7 @@
 
 require('dotenv').config();
 const { Storage } = require('@google-cloud/storage');
-const bucketName = 'YOUR_BUCKET_NAME'; // The name of your google bucket
+const bucketName = 'hermes-beta'; // The name of your google bucket
 
 const storage = new Storage({
   projectId: process.env.GOOGLE_CLOUD_PROJECT_ID //Your google project id

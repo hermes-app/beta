@@ -21,8 +21,8 @@ class ConnectPage extends Component {
     // this function is too make a hardcoded conditional rendering work for our demo we should get rid of this after presentation
 
     render() {
-        let wordpressRedirectUrl = 'http://localhost:5000/wordpress/callback_wordpress`'
-        let wordpressClientId = '65413'
+        let wordpressRedirectUrl = 'http://localhost:5000/wordpress/callback_wordpress'
+        let wordpressClientId = '65788'
         let podbeanRedirectUrl = 'https://hermes-host.herokuapp.com/podbean/callback_podbean'
         let podbeanClientID = '7ae314124aac5c7de467d'
         return (

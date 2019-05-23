@@ -19,7 +19,7 @@ const projectId = process.env.GOOGLE_CLOUD_PROJECT_ID; // You're projectId
 const gStorage = new Storage({
   projectId: projectId,
 });
-const bucketName = 'YOUR_BUCKET_NAME'; // put the name of your google bucket here
+const bucketName = 'hermes-beta'; // put the name of your google bucket here
 const bucket = gStorage.bucket(bucketName)
 router.get('/transcription', async function (req, res) {
   console.log(req.query)
@@ -70,7 +70,7 @@ router.get('/transcript', async function (req, res) {
 
   // Detects speech in the audio file. This creates a recognition job that you
   // can wait for now, or get its result later.
-  const [operation] = await client.longRunningRecognize(request);
+  const [operation] = await client.longRunningRecognize(request); //longrunning recognize requires one minute of content.
   // Get a Promise representation of the final result of the job
   const [response] = await operation.promise();
   console.log(response)

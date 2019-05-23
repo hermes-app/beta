@@ -1,0 +1,39 @@
+.overallBox {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    /* padding: 10px  80px;
+    margin: 10px 10px; */
+}
+
+.platformImages{
+    height: 500px;
+}
+
+.imageBox{
+    height: 500px;
+}
+
+.buttonsReview{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.reviewBox {
+    /* border-radius: 10px; */
+    text-align: center;
+}
+
+.podbean p {
+    text-align: center;
+}
+
+.review-heading {
+    text-align: left;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ 

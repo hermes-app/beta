@@ -1,0 +1,88 @@
+
+.header{
+    text-align: left;
+
+}
+
+.linkButtons{
+    border-radius: 4px;
+    text-align: left;
+    size: 30px;
+}
+
+.publishButton{
+    position: right;
+    border-radius: 4px;
+}
+
+.buttonLeft img {
+    width: 200px;
+    object-fit: contain;
+    transition: all .4s;
+   border-radius: 4px;
+
+}
+
+.buttonLeft img:hover {
+    background-color:whitesmoke;
+    cursor: pointer;
+}
+
+.buttonLeft button {
+    padding: 0;
+}
+
+.publishButton{
+    align-content: left;
+      color: #006487;
+    font-size: 24px;
+    background: none;
+    margin: 20px 20px;
+    /* text-transform: uppercase; */
+    box-shadow: none;
+    border: none;
+    transition: all .3s;
+}
+
+.grid-text {
+    /* border: 1px solid red; */
+}
+
+.grid-logos {
+    /* border: 1px solid red; */
+}
+
+.grid-button {
+    /* border: 1px solid red; */
+}
+
+.grid-image {
+    /* border: 1px solid red; */
+    margin-right: 5rem;
+}
+
+.grid-blank {
+    /* border: 1px solid red; */
+}
+img {
+    height:500px;
+    /* position: relative; */
+
+}
+
+.container-publish-content {
+    /* border: 1px solid red; */
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.platform-link {
+    width: 400px;
+}
+
+.platform-link:hover {
+  /* background-color:#CA9E1C; */
+  -moz-box-shadow: 0px 10px 14px -2px #cfcfcf;
+	-webkit-box-shadow: 0px 10px 14px -2px #cfcfcf;
+	box-shadow: 0px 10px 14px -2px #cfcfcf;
+}
